@@ -25,9 +25,9 @@ $(function(){
       msg.pitch = $('#pitch').val();
       msg.text = text;
 
-      msg.onend = function(e) {
-        console.log('Finished in ' + event.elapsedTime + ' seconds.');
-      };
+    //   msg.onend = function(e) {
+    //     console.log('Finished in ' + event.elapsedTime + ' seconds.');
+    //   };
 
       speechSynthesis.speak(msg);
     })
